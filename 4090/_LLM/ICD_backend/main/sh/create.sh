@@ -1,0 +1,1 @@
+tmux new-session -d -s icd_start "conda activate qianfoshan; bash /mnt/bigdisk/icdproject/ICD_code_of_Qianfoshan_Hospital_surgeries/Surgeries_code/Surgeries_ICD/sh/icd_start.sh"
