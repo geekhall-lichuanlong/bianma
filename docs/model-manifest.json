@@ -337,8 +337,8 @@
     {
       "name": "disease_pathology_agent_v20260725",
       "runtime_path": "3090/_LLM/models/disease_pathology_agent_v20260725",
-      "hosting_url": null,
-      "revision": null,
+      "hosting_url": "https://modelscope.cn/models/chuanlongli/qianyi-icd-disease-pathology-agent-v20260725",
+      "revision": "snapshot-20261111",
       "redistribution_status": "pending_license_and_ownership_review",
       "files": [
         {
@@ -380,7 +380,7 @@
       "bytes": 4074951489,
       "repo_id": "chuanlongli/qianyi-icd-disease-pathology-agent-v20260725",
       "visibility": "private",
-      "upload_status": "extracting"
+      "upload_status": "verified"
     },
     {
       "name": "no_surgery_name_V20260604",
@@ -428,7 +428,7 @@
       "bytes": 3452621450,
       "repo_id": "chuanlongli/qianyi-icd-no-surgery-name-v20260604",
       "visibility": "private",
-      "upload_status": "created"
+      "upload_status": "extracting"
     },
     {
       "name": "no_surgery_screening_V2026011",
