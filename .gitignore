@@ -63,3 +63,7 @@ Thumbs.db
 # Empty frontend schema; original patient examples are excluded.
 !3090/front-back/qy_icd/qianyi-web/src/data/
 !3090/front-back/qy_icd/qianyi-web/src/data/his-coding-ground-truth.json
+
+# Generated project interface preview (no patient data).
+!docs/media/
+!docs/media/ui-preview.webm
