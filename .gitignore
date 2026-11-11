@@ -67,3 +67,6 @@ Thumbs.db
 # Generated project interface preview (no patient data).
 !docs/media/
 !docs/media/ui-preview.webm
+
+# Authorized deidentified website interface walkthrough.
+!docs/media/website-demo.webm
