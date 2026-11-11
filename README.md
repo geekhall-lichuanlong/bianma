@@ -54,7 +54,7 @@ flowchart LR
     G --> H[编码结果与过程展示]
 ```
 
-## 复现与模型下载
+## 模型下载
 
 [模型清单](docs/model-manifest.json)。
 
@@ -81,8 +81,6 @@ flowchart LR
 
 ## 演示视频与验证状态
 
-完整 OCR / 模型推理演示仍待验证。详见 [演示素材与范围说明](docs/demo.md)。
-
-上传前已做源码语法、JSON、静态凭据及文件范围检查。前端源码已通过 Vite 生产构建；截图验证了页面展示。真实 OCR、模型编码和独立部署效果仍需实测。
+详见 [演示素材](docs/demo.md)。
 
 原项目说明见 [原根目录 README](docs/original-root-README.md)。
