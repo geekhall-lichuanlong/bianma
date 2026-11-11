@@ -85,8 +85,8 @@
     {
       "name": "disease_agent1_v20260113",
       "runtime_path": "3090/_LLM/models/disease_agent1_v20260113",
-      "hosting_url": null,
-      "revision": null,
+      "hosting_url": "https://modelscope.cn/models/chuanlongli/qianyi-icd-disease-agent1-v20260113",
+      "revision": "snapshot-20261111",
       "redistribution_status": "pending_license_and_ownership_review",
       "files": [
         {
@@ -148,7 +148,7 @@
       "bytes": 3457075551,
       "repo_id": "chuanlongli/qianyi-icd-disease-agent1-v20260113",
       "visibility": "private",
-      "upload_status": "uploading"
+      "upload_status": "verified"
     },
     {
       "name": "disease_agent5_v20260113",
@@ -216,7 +216,7 @@
       "bytes": 3457075551,
       "repo_id": "chuanlongli/qianyi-icd-disease-agent5-v20260113",
       "visibility": "private",
-      "upload_status": "created"
+      "upload_status": "extracting"
     },
     {
       "name": "disease_agent6_v20260113",
