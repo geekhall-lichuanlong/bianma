@@ -433,8 +433,8 @@
     {
       "name": "no_surgery_screening_V2026011",
       "runtime_path": "4090/_LLM/models/no_surgery_screening_V2026011",
-      "hosting_url": null,
-      "revision": null,
+      "hosting_url": "https://modelscope.cn/models/chuanlongli/qianyi-icd-no-surgery-screening-v2026011",
+      "revision": "snapshot-20261111",
       "redistribution_status": "pending_license_and_ownership_review",
       "files": [
         {
@@ -476,7 +476,7 @@
       "bytes": 4074951425,
       "repo_id": "chuanlongli/qianyi-icd-no-surgery-screening-v2026011",
       "visibility": "private",
-      "upload_status": "extracting"
+      "upload_status": "verified"
     },
     {
       "name": "surgery_agent1_v20260327",
@@ -529,7 +529,7 @@
       "bytes": 4446566608,
       "repo_id": "chuanlongli/qianyi-icd-surgery-agent1-v20260327",
       "visibility": "private",
-      "upload_status": "created"
+      "upload_status": "extracting"
     },
     {
       "name": "surgery_agent2_v20260113",
