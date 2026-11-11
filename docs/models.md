@@ -2,7 +2,7 @@
 
 模型权重托管于 ModelScope 魔搭，按模型分别保存。当前所有模型仓库均为私有，下载需要对应账号授权。
 
-已校验 6/12 个模型；可用条目已固定到 `snapshot-20261111`。未完成条目暂不提供下载链接。
+已校验 7/12 个模型；可用条目已固定到 `snapshot-20261111`。未完成条目暂不提供下载链接。
 
 | 部署目录 | 推理文件大小 | 下载状态 / 固定版本 |
 | --- | --- | --- |
@@ -12,7 +12,7 @@
 | `3090/_LLM/models/disease_agent6_v20260113` | 3.22 GiB | [已校验 · snapshot-20261111](https://modelscope.cn/models/chuanlongli/qianyi-icd-disease-agent6-v20260113) |
 | `3090/_LLM/models/disease_external_cause_agent_v20260727` | 3.80 GiB | [已校验 · snapshot-20261111](https://modelscope.cn/models/chuanlongli/qianyi-icd-disease-external-cause-agent-v20260727) |
 | `3090/_LLM/models/disease_pathology_agent_v20260725` | 3.80 GiB | [已校验 · snapshot-20261111](https://modelscope.cn/models/chuanlongli/qianyi-icd-disease-pathology-agent-v20260725) |
-| `4090/_LLM/models/no_surgery_name_V20260604` | 3.22 GiB | 上传中（仓库已建） |
+| `4090/_LLM/models/no_surgery_name_V20260604` | 3.22 GiB | [已校验 · snapshot-20261111](https://modelscope.cn/models/chuanlongli/qianyi-icd-no-surgery-name-v20260604) |
 | `4090/_LLM/models/no_surgery_screening_V2026011` | 3.80 GiB | 上传中（仓库已建） |
 | `4090/_LLM/models/surgery_agent1_v20260327` | 4.14 GiB | 上传中（仓库已建） |
 | `4090/_LLM/models/surgery_agent2_v20260113` | 3.22 GiB | 上传中（仓库已建） |
