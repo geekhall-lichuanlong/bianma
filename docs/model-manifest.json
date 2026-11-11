@@ -1,18 +1,19 @@
 {
   "schema_version": 1,
-  "status": "hosting_pending",
+  "status": "partial",
   "source_snapshot": "2026-11-11",
   "notes": [
-    "Download URLs are not available yet.",
-    "Hashes identify local inference artifacts, not publication rights.",
-    "OCR models, dictionaries, rules and search indices are separate dependencies."
+    "Only verified models have usable download URLs and pinned snapshot tags.",
+    "All repositories are private; authorization is required.",
+    "OCR models, dictionaries, rules and search indices are separate dependencies.",
+    "Model redistribution rights have not been established."
   ],
   "models": [
     {
       "name": "Qwen3.5-4B",
       "runtime_path": "3090/_LLM/models/Qwen3.5-4B",
-      "hosting_url": null,
-      "revision": null,
+      "hosting_url": "https://modelscope.cn/models/chuanlongli/qianyi-icd-qwen3-5-4b",
+      "revision": "snapshot-20261111",
       "redistribution_status": "pending_license_and_ownership_review",
       "files": [
         {
@@ -76,7 +77,10 @@
           "sha256": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003"
         }
       ],
-      "bytes": 9342905313
+      "bytes": 9342905313,
+      "repo_id": "chuanlongli/qianyi-icd-qwen3-5-4b",
+      "visibility": "private",
+      "upload_status": "verified"
     },
     {
       "name": "disease_agent1_v20260113",
@@ -141,7 +145,10 @@
           "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
         }
       ],
-      "bytes": 3457075551
+      "bytes": 3457075551,
+      "repo_id": "chuanlongli/qianyi-icd-disease-agent1-v20260113",
+      "visibility": "private",
+      "upload_status": "uploading"
     },
     {
       "name": "disease_agent5_v20260113",
@@ -206,7 +213,10 @@
           "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
         }
       ],
-      "bytes": 3457075551
+      "bytes": 3457075551,
+      "repo_id": "chuanlongli/qianyi-icd-disease-agent5-v20260113",
+      "visibility": "private",
+      "upload_status": "created"
     },
     {
       "name": "disease_agent6_v20260113",
@@ -271,7 +281,10 @@
           "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
         }
       ],
-      "bytes": 3457075551
+      "bytes": 3457075551,
+      "repo_id": "chuanlongli/qianyi-icd-disease-agent6-v20260113",
+      "visibility": "private",
+      "upload_status": "created"
     },
     {
       "name": "disease_external_cause_agent_v20260727",
@@ -316,7 +329,10 @@
           "sha256": "191de3248321311d20547139fba3aff3a5b03a127de76bb4a2db6df9e90d645d"
         }
       ],
-      "bytes": 4074951553
+      "bytes": 4074951553,
+      "repo_id": "chuanlongli/qianyi-icd-disease-external-cause-agent-v20260727",
+      "visibility": "private",
+      "upload_status": "created"
     },
     {
       "name": "disease_pathology_agent_v20260725",
@@ -361,7 +377,10 @@
           "sha256": "fa1559f2391640441d67d59ff2b3350ef6bb635a2e48d5e8c8ee9639cb86bb4b"
         }
       ],
-      "bytes": 4074951489
+      "bytes": 4074951489,
+      "repo_id": "chuanlongli/qianyi-icd-disease-pathology-agent-v20260725",
+      "visibility": "private",
+      "upload_status": "created"
     },
     {
       "name": "no_surgery_name_V20260604",
@@ -406,7 +425,10 @@
           "sha256": "76f92686fa46790c2dc2d975953cd8d47f5c61690c679f3e55e477c42dd1ec7e"
         }
       ],
-      "bytes": 3452621450
+      "bytes": 3452621450,
+      "repo_id": "chuanlongli/qianyi-icd-no-surgery-name-v20260604",
+      "visibility": "private",
+      "upload_status": "created"
     },
     {
       "name": "no_surgery_screening_V2026011",
@@ -451,7 +473,10 @@
           "sha256": "2614a565ecd526dfa7bae6a6f7591b30e3b84de8b5f295ceb4d258cb10b97bca"
         }
       ],
-      "bytes": 4074951425
+      "bytes": 4074951425,
+      "repo_id": "chuanlongli/qianyi-icd-no-surgery-screening-v2026011",
+      "visibility": "private",
+      "upload_status": "created"
     },
     {
       "name": "surgery_agent1_v20260327",
@@ -501,7 +526,10 @@
           "sha256": "711ec4e5eb54ba4ce3516f982d8dcfdee6b1819ac5dfab7f76c21f8539955cf0"
         }
       ],
-      "bytes": 4446566608
+      "bytes": 4446566608,
+      "repo_id": "chuanlongli/qianyi-icd-surgery-agent1-v20260327",
+      "visibility": "private",
+      "upload_status": "created"
     },
     {
       "name": "surgery_agent2_v20260113",
@@ -566,7 +594,10 @@
           "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
         }
       ],
-      "bytes": 3457075551
+      "bytes": 3457075551,
+      "repo_id": "chuanlongli/qianyi-icd-surgery-agent2-v20260113",
+      "visibility": "private",
+      "upload_status": "created"
     },
     {
       "name": "surgery_agent4_v20260113",
@@ -631,7 +662,10 @@
           "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
         }
       ],
-      "bytes": 3457075551
+      "bytes": 3457075551,
+      "repo_id": "chuanlongli/qianyi-icd-surgery-agent4-v20260113",
+      "visibility": "private",
+      "upload_status": "created"
     },
     {
       "name": "surgery_agent5_v20260113",
@@ -696,7 +730,10 @@
           "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
         }
       ],
-      "bytes": 3457075551
+      "bytes": 3457075551,
+      "repo_id": "chuanlongli/qianyi-icd-surgery-agent5-v20260113",
+      "visibility": "private",
+      "upload_status": "created"
     }
   ]
 }

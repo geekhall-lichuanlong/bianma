@@ -1,23 +1,23 @@
 # 模型与复现资源
 
-模型权重采用独立托管、README 链接下载的方式。计划使用 ModelScope 魔搭模型仓库，按模型分别记录版本与下载地址。当前尚未上传权重，因此这里没有可用下载链接。
+模型权重托管于 ModelScope 魔搭，按模型分别保存。当前所有模型仓库均为私有，下载需要对应账号授权。
 
-## 本地推理文件清单
+已校验 1/12 个模型；可用条目已固定到 `snapshot-20261111`。未完成条目暂不提供下载链接。
 
-| 部署目录 | 推理文件大小 | 下载状态 |
+| 部署目录 | 推理文件大小 | 下载状态 / 固定版本 |
 | --- | --- | --- |
-| `3090/_LLM/models/Qwen3.5-4B` | 8.70 GiB | 待托管 |
-| `3090/_LLM/models/disease_agent1_v20260113` | 3.22 GiB | 待托管 |
-| `3090/_LLM/models/disease_agent5_v20260113` | 3.22 GiB | 待托管 |
-| `3090/_LLM/models/disease_agent6_v20260113` | 3.22 GiB | 待托管 |
-| `3090/_LLM/models/disease_external_cause_agent_v20260727` | 3.80 GiB | 待托管 |
-| `3090/_LLM/models/disease_pathology_agent_v20260725` | 3.80 GiB | 待托管 |
-| `4090/_LLM/models/no_surgery_name_V20260604` | 3.22 GiB | 待托管 |
-| `4090/_LLM/models/no_surgery_screening_V2026011` | 3.80 GiB | 待托管 |
-| `4090/_LLM/models/surgery_agent1_v20260327` | 4.14 GiB | 待托管 |
-| `4090/_LLM/models/surgery_agent2_v20260113` | 3.22 GiB | 待托管 |
-| `4090/_LLM/models/surgery_agent4_v20260113` | 3.22 GiB | 待托管 |
-| `4090/_LLM/models/surgery_agent5_v20260113` | 3.22 GiB | 待托管 |
+| `3090/_LLM/models/Qwen3.5-4B` | 8.70 GiB | [已校验 · snapshot-20261111](https://modelscope.cn/models/chuanlongli/qianyi-icd-qwen3-5-4b) |
+| `3090/_LLM/models/disease_agent1_v20260113` | 3.22 GiB | 上传中（仓库已建） |
+| `3090/_LLM/models/disease_agent5_v20260113` | 3.22 GiB | 上传中（仓库已建） |
+| `3090/_LLM/models/disease_agent6_v20260113` | 3.22 GiB | 上传中（仓库已建） |
+| `3090/_LLM/models/disease_external_cause_agent_v20260727` | 3.80 GiB | 上传中（仓库已建） |
+| `3090/_LLM/models/disease_pathology_agent_v20260725` | 3.80 GiB | 上传中（仓库已建） |
+| `4090/_LLM/models/no_surgery_name_V20260604` | 3.22 GiB | 上传中（仓库已建） |
+| `4090/_LLM/models/no_surgery_screening_V2026011` | 3.80 GiB | 上传中（仓库已建） |
+| `4090/_LLM/models/surgery_agent1_v20260327` | 4.14 GiB | 上传中（仓库已建） |
+| `4090/_LLM/models/surgery_agent2_v20260113` | 3.22 GiB | 上传中（仓库已建） |
+| `4090/_LLM/models/surgery_agent4_v20260113` | 3.22 GiB | 上传中（仓库已建） |
+| `4090/_LLM/models/surgery_agent5_v20260113` | 3.22 GiB | 上传中（仓库已建） |
 
 逐文件大小及 SHA256 见 [model-manifest.json](model-manifest.json)。大小为选定推理文件的合计，不包含训练文件和日志。
 
@@ -26,7 +26,7 @@
 ## 复现准备顺序
 
 1. 固定本仓库代码 commit；参考 [部署说明](deployment.md) 和 `environment/` 安装 Linux / GPU / Python / Node 环境。
-2. 等待模型仓库地址发布，按清单下载并恢复到相应目录。`disease_agent7_v20260205` 是疾病病理模型的兼容目录链接，部署时检查对应启动脚本与链接目标。
+2. 选择已校验且已获得访问权限的模型版本，按清单下载并恢复到相应目录。`disease_agent7_v20260205` 是疾病病理模型的兼容目录链接，部署时检查对应启动脚本与链接目标。
 3. 单独准备 OCR 推理文件、字体、ICD 字典和规则、Elasticsearch 映射与检索数据。只具备 LLM 权重仍不足以启动完整系统。
 4. 创建全新业务数据库与账号，导出 `.env.example` 中的环境变量，检查路径、GPU 编号和端口，再按模块启动。
 5. 用自行构造的虚拟病例验证 OCR → 编码 → 结果展示。记录输入、输出、硬件、服务版本与耗时，形成复现报告。
@@ -42,3 +42,6 @@ python tools/verify_models.py --root /opt/qianyi
 ```
 
 相关平台说明：[魔搭模型上传文档](https://modelscope.cn/docs/models/upload)、[官方 SDK](https://github.com/modelscope/modelscope_hub)。
+
+
+已获得访问授权后，可安装 `modelscope-hub`，再执行 `python tools/download_models.py --root /opt/qianyi`。只下载某个模型可追加 `--model Qwen3.5-4B`。工具会拒绝尚未校验的条目，下载后检查 SHA256。令牌通过 `MODELSCOPE_API_TOKEN` 或 SDK 的本地登录提供，不写入代码。
