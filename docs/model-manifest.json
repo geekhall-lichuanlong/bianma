@@ -1,0 +1,702 @@
+{
+  "schema_version": 1,
+  "status": "hosting_pending",
+  "source_snapshot": "2026-11-11",
+  "notes": [
+    "Download URLs are not available yet.",
+    "Hashes identify local inference artifacts, not publication rights.",
+    "OCR models, dictionaries, rules and search indices are separate dependencies."
+  ],
+  "models": [
+    {
+      "name": "Qwen3.5-4B",
+      "runtime_path": "3090/_LLM/models/Qwen3.5-4B",
+      "hosting_url": null,
+      "revision": null,
+      "redistribution_status": "pending_license_and_ownership_review",
+      "files": [
+        {
+          "path": "LICENSE",
+          "bytes": 11343,
+          "sha256": "50cbab8a892c5f2993b8c7351a99182507472def3b1374558308605d99b86b32"
+        },
+        {
+          "path": "README.md",
+          "bytes": 77661,
+          "sha256": "1406be1b6b8fd8a6545870da516912804756593628a1d0fb0a7965211e82a7bb"
+        },
+        {
+          "path": "chat_template.jinja",
+          "bytes": 7756,
+          "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715"
+        },
+        {
+          "path": "config.json",
+          "bytes": 3161,
+          "sha256": "ddc63e1c717afa86c865bb5e01313d89d72bb53b97ad4a8a03ba8510c0621670"
+        },
+        {
+          "path": "merges.txt",
+          "bytes": 3353259,
+          "sha256": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d"
+        },
+        {
+          "path": "model.safetensors-00001-of-00002.safetensors",
+          "bytes": 5329398688,
+          "sha256": "26a93f066e1916adb13453dae5a0c707c0fbc71299ed98779571a907b8e74c61"
+        },
+        {
+          "path": "model.safetensors-00002-of-00002.safetensors",
+          "bytes": 3990429408,
+          "sha256": "cb544bd9bfae93dc59b0f22b292f5933573854a7f9b97835c67060d7d910e188"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "bytes": 76196,
+          "sha256": "cf3f798ee02ba45f9622aa8892a47369ab667d0afbf154ee7c2212de42e6302d"
+        },
+        {
+          "path": "preprocessor_config.json",
+          "bytes": 390,
+          "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516"
+        },
+        {
+          "path": "tokenizer.json",
+          "bytes": 12807982,
+          "sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "bytes": 16710,
+          "sha256": "316230d6a809701f4db5ea8f8fc862bc3a6f3229c937c174e674ff3ca0a64ac8"
+        },
+        {
+          "path": "vocab.json",
+          "bytes": 6722759,
+          "sha256": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003"
+        }
+      ],
+      "bytes": 9342905313
+    },
+    {
+      "name": "disease_agent1_v20260113",
+      "runtime_path": "3090/_LLM/models/disease_agent1_v20260113",
+      "hosting_url": null,
+      "revision": null,
+      "redistribution_status": "pending_license_and_ownership_review",
+      "files": [
+        {
+          "path": "added_tokens.json",
+          "bytes": 707,
+          "sha256": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680"
+        },
+        {
+          "path": "chat_template.jinja",
+          "bytes": 4168,
+          "sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8"
+        },
+        {
+          "path": "config.json",
+          "bytes": 1361,
+          "sha256": "2eb1c7d9ec4d1dde3651c2257b17d042489c589b16290501e0fbb5243851e03d"
+        },
+        {
+          "path": "generation_config.json",
+          "bytes": 214,
+          "sha256": "d3e057bbca66b92f33a8bdc6a1301014e0e4ab69b3b3fd2e442d9fe0c69f3431"
+        },
+        {
+          "path": "merges.txt",
+          "bytes": 1671853,
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+        },
+        {
+          "path": "model.safetensors",
+          "bytes": 3441185608,
+          "sha256": "8b85408c75fa2238f93629d8f2fccc2df8b767c59d16aa4d66fe5e8e9f6e257e"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "bytes": 613,
+          "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+        },
+        {
+          "path": "tokenizer.json",
+          "bytes": 11422654,
+          "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "bytes": 5404,
+          "sha256": "443bfa629eb16387a12edbf92a76f6a6f10b2af3b53d87ba1550adfcf45f7fa0"
+        },
+        {
+          "path": "training_args.bin",
+          "bytes": 6136,
+          "sha256": "9f2f6f540b969b4b7a4ec4b1f36f8bf59f0f7a59bc9b6e803796ed008846b914"
+        },
+        {
+          "path": "vocab.json",
+          "bytes": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+        }
+      ],
+      "bytes": 3457075551
+    },
+    {
+      "name": "disease_agent5_v20260113",
+      "runtime_path": "3090/_LLM/models/disease_agent5_v20260113",
+      "hosting_url": null,
+      "revision": null,
+      "redistribution_status": "pending_license_and_ownership_review",
+      "files": [
+        {
+          "path": "added_tokens.json",
+          "bytes": 707,
+          "sha256": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680"
+        },
+        {
+          "path": "chat_template.jinja",
+          "bytes": 4168,
+          "sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8"
+        },
+        {
+          "path": "config.json",
+          "bytes": 1361,
+          "sha256": "2eb1c7d9ec4d1dde3651c2257b17d042489c589b16290501e0fbb5243851e03d"
+        },
+        {
+          "path": "generation_config.json",
+          "bytes": 214,
+          "sha256": "d3e057bbca66b92f33a8bdc6a1301014e0e4ab69b3b3fd2e442d9fe0c69f3431"
+        },
+        {
+          "path": "merges.txt",
+          "bytes": 1671853,
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+        },
+        {
+          "path": "model.safetensors",
+          "bytes": 3441185608,
+          "sha256": "0d66e089959981e674fabad2a3ce2b47c9389418dcce7a96f8f281fab4dc16ba"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "bytes": 613,
+          "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+        },
+        {
+          "path": "tokenizer.json",
+          "bytes": 11422654,
+          "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "bytes": 5404,
+          "sha256": "443bfa629eb16387a12edbf92a76f6a6f10b2af3b53d87ba1550adfcf45f7fa0"
+        },
+        {
+          "path": "training_args.bin",
+          "bytes": 6136,
+          "sha256": "38eb11bdf3e74276ad1ed3b95a7d9150781685feea7b0a498aeb57e5dfee5611"
+        },
+        {
+          "path": "vocab.json",
+          "bytes": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+        }
+      ],
+      "bytes": 3457075551
+    },
+    {
+      "name": "disease_agent6_v20260113",
+      "runtime_path": "3090/_LLM/models/disease_agent6_v20260113",
+      "hosting_url": null,
+      "revision": null,
+      "redistribution_status": "pending_license_and_ownership_review",
+      "files": [
+        {
+          "path": "added_tokens.json",
+          "bytes": 707,
+          "sha256": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680"
+        },
+        {
+          "path": "chat_template.jinja",
+          "bytes": 4168,
+          "sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8"
+        },
+        {
+          "path": "config.json",
+          "bytes": 1361,
+          "sha256": "2eb1c7d9ec4d1dde3651c2257b17d042489c589b16290501e0fbb5243851e03d"
+        },
+        {
+          "path": "generation_config.json",
+          "bytes": 214,
+          "sha256": "d3e057bbca66b92f33a8bdc6a1301014e0e4ab69b3b3fd2e442d9fe0c69f3431"
+        },
+        {
+          "path": "merges.txt",
+          "bytes": 1671853,
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+        },
+        {
+          "path": "model.safetensors",
+          "bytes": 3441185608,
+          "sha256": "739fc5ebba9d6425aab20cdbf3b60e5f6ee942f132ad109f3f2ce06463bfd19c"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "bytes": 613,
+          "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+        },
+        {
+          "path": "tokenizer.json",
+          "bytes": 11422654,
+          "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "bytes": 5404,
+          "sha256": "443bfa629eb16387a12edbf92a76f6a6f10b2af3b53d87ba1550adfcf45f7fa0"
+        },
+        {
+          "path": "training_args.bin",
+          "bytes": 6136,
+          "sha256": "06bd2e1cec6b27eb356e3219a8f1615e24bdf345b1fc150e40e11da80d5ac2d1"
+        },
+        {
+          "path": "vocab.json",
+          "bytes": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+        }
+      ],
+      "bytes": 3457075551
+    },
+    {
+      "name": "disease_external_cause_agent_v20260727",
+      "runtime_path": "3090/_LLM/models/disease_external_cause_agent_v20260727",
+      "hosting_url": null,
+      "revision": null,
+      "redistribution_status": "pending_license_and_ownership_review",
+      "files": [
+        {
+          "path": "chat_template.jinja",
+          "bytes": 4168,
+          "sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8"
+        },
+        {
+          "path": "config.json",
+          "bytes": 1417,
+          "sha256": "49ec5b8b5e1ec61a4adecd0b143647e34ee0a53b7b986140c8f536873465a371"
+        },
+        {
+          "path": "generation_config.json",
+          "bytes": 213,
+          "sha256": "694a5dd8c2fc84a54030033a2f228df68137d66261fc30bae402c7f106df5e21"
+        },
+        {
+          "path": "model.safetensors",
+          "bytes": 4063515640,
+          "sha256": "95478dd222e43e113d330dcbad620ef26feb418699fb0fa5acb52c98d65659f2"
+        },
+        {
+          "path": "tokenizer.json",
+          "bytes": 11422650,
+          "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "bytes": 664,
+          "sha256": "d9bf1d78a80bad5eb65b83c2608910e3be00a9d3250c8153a5a393ad1257e1d6"
+        },
+        {
+          "path": "training_args.bin",
+          "bytes": 6801,
+          "sha256": "191de3248321311d20547139fba3aff3a5b03a127de76bb4a2db6df9e90d645d"
+        }
+      ],
+      "bytes": 4074951553
+    },
+    {
+      "name": "disease_pathology_agent_v20260725",
+      "runtime_path": "3090/_LLM/models/disease_pathology_agent_v20260725",
+      "hosting_url": null,
+      "revision": null,
+      "redistribution_status": "pending_license_and_ownership_review",
+      "files": [
+        {
+          "path": "chat_template.jinja",
+          "bytes": 4168,
+          "sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8"
+        },
+        {
+          "path": "config.json",
+          "bytes": 1417,
+          "sha256": "49ec5b8b5e1ec61a4adecd0b143647e34ee0a53b7b986140c8f536873465a371"
+        },
+        {
+          "path": "generation_config.json",
+          "bytes": 213,
+          "sha256": "694a5dd8c2fc84a54030033a2f228df68137d66261fc30bae402c7f106df5e21"
+        },
+        {
+          "path": "model.safetensors",
+          "bytes": 4063515640,
+          "sha256": "420c10abf057c5f6b19d870e72e8111b6a9a68ac4e6d6d54bfb764f500ce3372"
+        },
+        {
+          "path": "tokenizer.json",
+          "bytes": 11422650,
+          "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "bytes": 664,
+          "sha256": "d9bf1d78a80bad5eb65b83c2608910e3be00a9d3250c8153a5a393ad1257e1d6"
+        },
+        {
+          "path": "training_args.bin",
+          "bytes": 6737,
+          "sha256": "fa1559f2391640441d67d59ff2b3350ef6bb635a2e48d5e8c8ee9639cb86bb4b"
+        }
+      ],
+      "bytes": 4074951489
+    },
+    {
+      "name": "no_surgery_name_V20260604",
+      "runtime_path": "4090/_LLM/models/no_surgery_name_V20260604",
+      "hosting_url": null,
+      "revision": null,
+      "redistribution_status": "pending_license_and_ownership_review",
+      "files": [
+        {
+          "path": "chat_template.jinja",
+          "bytes": 4168,
+          "sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8"
+        },
+        {
+          "path": "config.json",
+          "bytes": 1417,
+          "sha256": "f795cbf340fa62a50ddcd85656c4b6c6052f42564f1edb658a1fdfe0830acc7c"
+        },
+        {
+          "path": "generation_config.json",
+          "bytes": 213,
+          "sha256": "5e663d06a41ce4ca6cb6f8e3de38b1714856eab8558822fe86bc042d1efa0afa"
+        },
+        {
+          "path": "model.safetensors",
+          "bytes": 3441185608,
+          "sha256": "04cd113d135660af172f6fd1535d3119a4f6d50af107bf6cc00159ace16131c7"
+        },
+        {
+          "path": "tokenizer.json",
+          "bytes": 11422650,
+          "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "bytes": 693,
+          "sha256": "2e3bd3cb5055f7a903a54e7062b2fd14d21b70f4174c3ffcd9fc81ec50a25631"
+        },
+        {
+          "path": "training_args.bin",
+          "bytes": 6701,
+          "sha256": "76f92686fa46790c2dc2d975953cd8d47f5c61690c679f3e55e477c42dd1ec7e"
+        }
+      ],
+      "bytes": 3452621450
+    },
+    {
+      "name": "no_surgery_screening_V2026011",
+      "runtime_path": "4090/_LLM/models/no_surgery_screening_V2026011",
+      "hosting_url": null,
+      "revision": null,
+      "redistribution_status": "pending_license_and_ownership_review",
+      "files": [
+        {
+          "path": "chat_template.jinja",
+          "bytes": 4168,
+          "sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8"
+        },
+        {
+          "path": "config.json",
+          "bytes": 1417,
+          "sha256": "49ec5b8b5e1ec61a4adecd0b143647e34ee0a53b7b986140c8f536873465a371"
+        },
+        {
+          "path": "generation_config.json",
+          "bytes": 213,
+          "sha256": "694a5dd8c2fc84a54030033a2f228df68137d66261fc30bae402c7f106df5e21"
+        },
+        {
+          "path": "model.safetensors",
+          "bytes": 4063515640,
+          "sha256": "8ee64582f1133c2ac0fe2c61b51a53644eda6630004c3f21a36effe3cea809de"
+        },
+        {
+          "path": "tokenizer.json",
+          "bytes": 11422650,
+          "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "bytes": 664,
+          "sha256": "d9bf1d78a80bad5eb65b83c2608910e3be00a9d3250c8153a5a393ad1257e1d6"
+        },
+        {
+          "path": "training_args.bin",
+          "bytes": 6673,
+          "sha256": "2614a565ecd526dfa7bae6a6f7591b30e3b84de8b5f295ceb4d258cb10b97bca"
+        }
+      ],
+      "bytes": 4074951425
+    },
+    {
+      "name": "surgery_agent1_v20260327",
+      "runtime_path": "4090/_LLM/models/surgery_agent1_v20260327",
+      "hosting_url": null,
+      "revision": null,
+      "redistribution_status": "pending_license_and_ownership_review",
+      "files": [
+        {
+          "path": "chat_template.jinja",
+          "bytes": 7755,
+          "sha256": "273d8e0e683b885071fb17e08d71e5f2a5ddfb5309756181681de4f5a1822d80"
+        },
+        {
+          "path": "config.json",
+          "bytes": 2716,
+          "sha256": "5e73ac45059dfcd61fd3d066fd2d12c4b751fe37924d1653bf02eac4545729bf"
+        },
+        {
+          "path": "generation_config.json",
+          "bytes": 137,
+          "sha256": "bffe96ad14b0ef7e35234d384f4474d66317ddc84c87394de26e8f6fef69cbc1"
+        },
+        {
+          "path": "model.safetensors",
+          "bytes": 4426558864,
+          "sha256": "1d736550db08257721cc8f8955cababea57652ca77c1cc15a2734313832a836b"
+        },
+        {
+          "path": "preprocessor_config.json",
+          "bytes": 390,
+          "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516"
+        },
+        {
+          "path": "tokenizer.json",
+          "bytes": 19989343,
+          "sha256": "87a7830d63fcf43bf241c3c5242e96e62dd3fdc29224ca26fed8ea333db72de4"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "bytes": 1139,
+          "sha256": "e98f1901ac6f0adff67b1d540bfa0c36ac1a0cf59eb72ed78146ef89aafa1182"
+        },
+        {
+          "path": "training_args.bin",
+          "bytes": 6264,
+          "sha256": "711ec4e5eb54ba4ce3516f982d8dcfdee6b1819ac5dfab7f76c21f8539955cf0"
+        }
+      ],
+      "bytes": 4446566608
+    },
+    {
+      "name": "surgery_agent2_v20260113",
+      "runtime_path": "4090/_LLM/models/surgery_agent2_v20260113",
+      "hosting_url": null,
+      "revision": null,
+      "redistribution_status": "pending_license_and_ownership_review",
+      "files": [
+        {
+          "path": "added_tokens.json",
+          "bytes": 707,
+          "sha256": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680"
+        },
+        {
+          "path": "chat_template.jinja",
+          "bytes": 4168,
+          "sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8"
+        },
+        {
+          "path": "config.json",
+          "bytes": 1361,
+          "sha256": "2eb1c7d9ec4d1dde3651c2257b17d042489c589b16290501e0fbb5243851e03d"
+        },
+        {
+          "path": "generation_config.json",
+          "bytes": 214,
+          "sha256": "d3e057bbca66b92f33a8bdc6a1301014e0e4ab69b3b3fd2e442d9fe0c69f3431"
+        },
+        {
+          "path": "merges.txt",
+          "bytes": 1671853,
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+        },
+        {
+          "path": "model.safetensors",
+          "bytes": 3441185608,
+          "sha256": "d33aab1012ff5f50f39315d520646e17fbd24d01794ced81d76ce4f73df83828"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "bytes": 613,
+          "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+        },
+        {
+          "path": "tokenizer.json",
+          "bytes": 11422654,
+          "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "bytes": 5404,
+          "sha256": "443bfa629eb16387a12edbf92a76f6a6f10b2af3b53d87ba1550adfcf45f7fa0"
+        },
+        {
+          "path": "training_args.bin",
+          "bytes": 6136,
+          "sha256": "c109c67699d9f31d8aeeeba3317d0c0ba667d379dc68f522d8ca39bbccfb09b7"
+        },
+        {
+          "path": "vocab.json",
+          "bytes": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+        }
+      ],
+      "bytes": 3457075551
+    },
+    {
+      "name": "surgery_agent4_v20260113",
+      "runtime_path": "4090/_LLM/models/surgery_agent4_v20260113",
+      "hosting_url": null,
+      "revision": null,
+      "redistribution_status": "pending_license_and_ownership_review",
+      "files": [
+        {
+          "path": "added_tokens.json",
+          "bytes": 707,
+          "sha256": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680"
+        },
+        {
+          "path": "chat_template.jinja",
+          "bytes": 4168,
+          "sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8"
+        },
+        {
+          "path": "config.json",
+          "bytes": 1361,
+          "sha256": "2eb1c7d9ec4d1dde3651c2257b17d042489c589b16290501e0fbb5243851e03d"
+        },
+        {
+          "path": "generation_config.json",
+          "bytes": 214,
+          "sha256": "d3e057bbca66b92f33a8bdc6a1301014e0e4ab69b3b3fd2e442d9fe0c69f3431"
+        },
+        {
+          "path": "merges.txt",
+          "bytes": 1671853,
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+        },
+        {
+          "path": "model.safetensors",
+          "bytes": 3441185608,
+          "sha256": "f49875062d53978df724866d88e66f5850b827b81e738cd0680361c0488262ac"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "bytes": 613,
+          "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+        },
+        {
+          "path": "tokenizer.json",
+          "bytes": 11422654,
+          "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "bytes": 5404,
+          "sha256": "443bfa629eb16387a12edbf92a76f6a6f10b2af3b53d87ba1550adfcf45f7fa0"
+        },
+        {
+          "path": "training_args.bin",
+          "bytes": 6136,
+          "sha256": "1e2bd8ae66862b30118542140e2cc8d1a927ec83543796bcd8169263587ec5b5"
+        },
+        {
+          "path": "vocab.json",
+          "bytes": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+        }
+      ],
+      "bytes": 3457075551
+    },
+    {
+      "name": "surgery_agent5_v20260113",
+      "runtime_path": "4090/_LLM/models/surgery_agent5_v20260113",
+      "hosting_url": null,
+      "revision": null,
+      "redistribution_status": "pending_license_and_ownership_review",
+      "files": [
+        {
+          "path": "added_tokens.json",
+          "bytes": 707,
+          "sha256": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680"
+        },
+        {
+          "path": "chat_template.jinja",
+          "bytes": 4168,
+          "sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8"
+        },
+        {
+          "path": "config.json",
+          "bytes": 1361,
+          "sha256": "2eb1c7d9ec4d1dde3651c2257b17d042489c589b16290501e0fbb5243851e03d"
+        },
+        {
+          "path": "generation_config.json",
+          "bytes": 214,
+          "sha256": "d3e057bbca66b92f33a8bdc6a1301014e0e4ab69b3b3fd2e442d9fe0c69f3431"
+        },
+        {
+          "path": "merges.txt",
+          "bytes": 1671853,
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+        },
+        {
+          "path": "model.safetensors",
+          "bytes": 3441185608,
+          "sha256": "b4764a62958a517e2849e5a6ff712ea5790679b452e423bd5402fe837370d227"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "bytes": 613,
+          "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+        },
+        {
+          "path": "tokenizer.json",
+          "bytes": 11422654,
+          "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "bytes": 5404,
+          "sha256": "443bfa629eb16387a12edbf92a76f6a6f10b2af3b53d87ba1550adfcf45f7fa0"
+        },
+        {
+          "path": "training_args.bin",
+          "bytes": 6136,
+          "sha256": "f422953fc77eeb8d34a63e3ed9d443eb8758aa732738b48d2571fc7a0add9f84"
+        },
+        {
+          "path": "vocab.json",
+          "bytes": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+        }
+      ],
+      "bytes": 3457075551
+    }
+  ]
+}

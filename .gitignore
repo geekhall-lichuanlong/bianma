@@ -59,3 +59,7 @@ Thumbs.db
 !4090/OCR/PaddleOCR-main/ppocr/data/
 !4090/OCR/PaddleOCR-main/ppocr/data/**/
 !4090/OCR/PaddleOCR-main/ppocr/data/**/*.py
+
+# Empty frontend schema; original patient examples are excluded.
+!3090/front-back/qy_icd/qianyi-web/src/data/
+!3090/front-back/qy_icd/qianyi-web/src/data/his-coding-ground-truth.json
