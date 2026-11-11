@@ -2,7 +2,7 @@
 
 模型权重托管于 ModelScope 魔搭，按模型分别保存。当前所有模型仓库均为私有，下载需要对应账号授权。
 
-已校验 9/12 个模型；可用条目已固定到 `snapshot-20261111`。未完成条目暂不提供下载链接。
+已校验 10/12 个模型；可用条目已固定到 `snapshot-20261111`。未完成条目暂不提供下载链接。
 
 | 部署目录 | 推理文件大小 | 下载状态 / 固定版本 |
 | --- | --- | --- |
@@ -15,7 +15,7 @@
 | `4090/_LLM/models/no_surgery_name_V20260604` | 3.22 GiB | [已校验 · snapshot-20261111](https://modelscope.cn/models/chuanlongli/qianyi-icd-no-surgery-name-v20260604) |
 | `4090/_LLM/models/no_surgery_screening_V2026011` | 3.80 GiB | [已校验 · snapshot-20261111](https://modelscope.cn/models/chuanlongli/qianyi-icd-no-surgery-screening-v2026011) |
 | `4090/_LLM/models/surgery_agent1_v20260327` | 4.14 GiB | [已校验 · snapshot-20261111](https://modelscope.cn/models/chuanlongli/qianyi-icd-surgery-agent1-v20260327) |
-| `4090/_LLM/models/surgery_agent2_v20260113` | 3.22 GiB | 上传中（仓库已建） |
+| `4090/_LLM/models/surgery_agent2_v20260113` | 3.22 GiB | [已校验 · snapshot-20261111](https://modelscope.cn/models/chuanlongli/qianyi-icd-surgery-agent2-v20260113) |
 | `4090/_LLM/models/surgery_agent4_v20260113` | 3.22 GiB | 上传中（仓库已建） |
 | `4090/_LLM/models/surgery_agent5_v20260113` | 3.22 GiB | 上传中（仓库已建） |
 
