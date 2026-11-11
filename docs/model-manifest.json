@@ -289,8 +289,8 @@
     {
       "name": "disease_external_cause_agent_v20260727",
       "runtime_path": "3090/_LLM/models/disease_external_cause_agent_v20260727",
-      "hosting_url": null,
-      "revision": null,
+      "hosting_url": "https://modelscope.cn/models/chuanlongli/qianyi-icd-disease-external-cause-agent-v20260727",
+      "revision": "snapshot-20261111",
       "redistribution_status": "pending_license_and_ownership_review",
       "files": [
         {
@@ -332,7 +332,7 @@
       "bytes": 4074951553,
       "repo_id": "chuanlongli/qianyi-icd-disease-external-cause-agent-v20260727",
       "visibility": "private",
-      "upload_status": "uploading"
+      "upload_status": "verified"
     },
     {
       "name": "disease_pathology_agent_v20260725",
@@ -380,7 +380,7 @@
       "bytes": 4074951489,
       "repo_id": "chuanlongli/qianyi-icd-disease-pathology-agent-v20260725",
       "visibility": "private",
-      "upload_status": "created"
+      "upload_status": "extracting"
     },
     {
       "name": "no_surgery_name_V20260604",
