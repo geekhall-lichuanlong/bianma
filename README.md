@@ -6,7 +6,7 @@
 
 [功能与界面](#功能与界面) · [界面预览与演示](docs/demo.md) · [部署说明](docs/deployment.md) · [模型与复现资源](docs/models.md)
 
-[![观看实际网页演示](docs/images/qianyi-live-02-case-summary.jpg)](docs/media/website-demo.webm)
+<a href="docs/media/website-demo.webm"><img src="docs/images/qianyi-live-02-case-summary.jpg" alt="观看实际网页演示" width="600"></a>
 
 **[网页演示](docs/media/website-demo.webm)**：工作台 → 暂存患者列表 → 脱敏病例摘要 → 诊疗信息 → 辅助检查 → 编码填写入口。短片由实际网页操作后的六张截图组成；病例为获授权的脱敏临床摘要，身份与日期使用演示值，手工录入，未调用 OCR / 模型推理，尚未生成编码结果。
 [本地源码布局预览](docs/media/ui-preview.webm)。
@@ -26,19 +26,19 @@
 
 ### 工作台
 
-![工作台界面预览](docs/images/01-dashboard.jpg)
+<a href="docs/images/01-dashboard.jpg"><img src="docs/images/01-dashboard.jpg" alt="工作台界面预览" width="600"></a>
 
 ### 智能病案编码
 
-![智能病案编码入口预览](docs/images/02-coding.jpg)
+<a href="docs/images/02-coding.jpg"><img src="docs/images/02-coding.jpg" alt="智能病案编码入口预览" width="600"></a>
 
 ### 病历导入与结构化入口
 
-![病历导入界面预览](docs/images/03-import.jpg)
+<a href="docs/images/03-import.jpg"><img src="docs/images/03-import.jpg" alt="病历导入界面预览" width="600"></a>
 
 ### 疾病手术知识查询
 
-![知识查询界面预览](docs/images/04-query.jpg)
+<a href="docs/images/04-query.jpg"><img src="docs/images/04-query.jpg" alt="知识查询界面预览" width="600"></a>
 
 ## 运行流程
 
